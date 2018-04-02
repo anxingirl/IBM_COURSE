@@ -1,0 +1,98 @@
+资源详细表Recourse
+	资源ID
+（外键）	主办学校	主讲人	教材	知识点	关键字	适用对象	课程类别	学习建议	含试题	含实验	含案例或习题	更新日期
+ID	RecourseID	University								Y/N	Y/N	Y/N	UpdateDate
+是否再细分下此表，例如对主讲人、教材等建表？
+是否建立适用对象、主办学校等字段的标准录入表？
+
+资源下载表 ResourceDownload
+	资源ID	下载类型	序号	日期
+ID	RecourseID	DownloadCat	Seq	Date
+
+1.1.	IBM讲座资料
+暂无
+
+2.	数据库表
+3.1.	系统参数表
+合作项目类别标签 Cat
+	名称	类别
+ID	CatName	Type
+	师资培训	A
+	精品课程	B
+	远程课件	C
+	出版教材	D
+	IBM AI标准课件	E
+	行业应用案例	F
+	讲座	G
+	技术文档	H
+
+技术领域类别标签 TechCat
+	名称NAME	缩写Ab	类别
+ID	TechCatName	Ab	Type
+	Business Analytics and Optimization		B
+	Information Management		IM
+	Lotus		L
+	Rational		R
+	Tivoli		T
+	WebSphere		W
+	SOA		S
+	System Z		SZ
+	Power Systems: AIX		PA
+	Power Systems: IBM i		PI
+	Cloud Computing		CC
+	Project Management		PM
+	IT Services		IS
+
+下载类别标签 DownloadCat
+	名称	类别
+ID	DownloadCatName	Type
+	课件或讲义	A
+	案例	B
+	实验	C
+	练习	D
+	试题	E
+	录音或视频	F
+	其他资源	G
+
+
+权限类别 Auth
+	权限名称	类别
+ID	AuthName	Type
+	允许下载（含访问）	D
+	允许访问	A
+	拒绝	D
+
+
+3.2.	数据表
+课程资源表
+资源ID，路径，下载链接，类别，下载权限，新资源
+Holding
+	资源ID	资源名称	缩写	路径	下载链接	项目类别	技术领域类别	下载权限	新资源	创建日期					
+ID	RecourseID	ResourceName	Ab	Route	DownLinks	Cat	TechCat			BuildDate					
+
+资源概表 RecourseSummary (按照标签库分别建表，以便将来分类扩展)
+	名称	缩写	时间	日期
+ID	RecourseName	Ab	Year	Date
+PK				
+资源合作项目分类表 RecourseAppCat
+	名称	项目类别
+ID	RecourseID	Cat
+资源技术领域分类表 RecourseTechCat
+	名称	技术领域类别
+ID	RecourseName	TechCat
+
+用户表 User
+用户名	注册时间	注册email	是否通过认证	所属高校	教育程度	最后一次访问时间	总下载次数
+ID	RegisterDate	RegisterEmail	Auth	University	Education	LastDate	Download
+是否再建高校分类表和教育程度分类表？
+是否建立更详细的用户资料，例如增加用户名等？
+
+下载统计表 DownloadCount
+	资料名称	下载id	下载量	最近下载时间
+ID	DownloadID	UserID	DownloadCounts	DownloadDate
+是否统计单个用户的下载量，但是这样此表会出现大量数据冗余，是否精简？
+
+访问统计表 Access
+	名称	用户ID	点击时间
+ID	RecourseID	UserID	CountDate
+点击量统计方式，是否统计每个资源的点击量即可， 点击的有效期为多久？
