@@ -1,0 +1,7 @@
+.tips-div {background:#fff;border:1px solid #7f9db9;position: absolute;display: none;margin:0px;padding:1px;}
+.tips-div ul{margin:0px;padding:0px;list-style:none;cursor:pointer;}
+.tips-div li{margin:0px;line-height:25px; height:25px; color:#05a; padding:1px 3px;}
+.tips-div li span.left{margin:0px;padding:0px;float:left;display:block;}
+.tips-div li span.right{margin:0px;padding:0px;float:right;color:green;display:block;text-align:left;}
+
+.tips-div-hover{background:#c8e3fc;}

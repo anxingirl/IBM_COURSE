@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+ <context-param>
+  <param-name>breed</param-name>
+  <param-value>dog</param-value>
+ </context-param>
+ <context-param>
+  <param-name>log4j</param-name>
+  <param-value>WEB-INF/classes/log4j.properties</param-value>
+ </context-param>
+ <context-param>
+  <description>上传文件临时存放的文件夹</description>
+  <param-name>tmpPath</param-name>
+  <param-value>/courses</param-value>
+ </context-param>
+ <context-param>
+  <description>上传文件解压放置的文件夹</description>
+  <param-name>fullPath</param-name>
+  <param-value>/web/course/full</param-value>
+ </context-param>
+ <filter>
+  <filter-name>encoding</filter-name>
+  <filter-class>ibm.filter.EncodingFilter</filter-class>
+  <init-param>
+   <param-name>encoding</param-name>
+   <param-value>UTF-8</param-value>
+  </init-param>
+ </filter>
+ <filter-mapping>
+  <filter-name>encoding</filter-name>
+  <url-pattern>*.do</url-pattern>
+ </filter-mapping>
+ <listener>
+  <description>When Context is initialized or destroyed ,make some changes about the attributes</description>
+  <listener-class>ibm.listener.MyServletContextListener</listener-class>
+ </listener>
+ <listener>
+  <listener-class>org.apache.commons.fileupload.servlet.FileCleanerCleanup</listener-class>
+ </listener>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>fileupload</servlet-name>
+  <servlet-class>ibm.servlet.upload.fileupload</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>ListenTest</servlet-name>
+  <servlet-class>ibm.listener.LinstenerTester</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>Log4jinit</servlet-name>
+  <servlet-class>ibm.util.log.Log4jinit</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>showProgress</servlet-name>
+  <servlet-class>ibm.servlet.upload.showProgress</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>MysqlTest</servlet-name>
+  <servlet-class>ibm.servlet.mysql.MysqlTest</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>resourceUpload</servlet-name>
+  <servlet-class>ibm.servlet.upload.resourceUpload</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>checkRoute</servlet-name>
+  <servlet-class>ibm.servlet.upload.checkRoute</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>getUsedRoute</servlet-name>
+  <servlet-class>ibm.servlet.upload.getUsedRoute</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>GetMetaData</servlet-name>
+  <servlet-class>ibm.servlet.metadata.GetMetaData</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>NewMetaData</servlet-name>
+  <servlet-class>ibm.servlet.metadata.NewMetaData</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>CatUpload</servlet-name>
+  <servlet-class>ibm.servlet.upload.CatUpload</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>uploadUser</servlet-name>
+  <servlet-class>ibm.servlet.user.uploadUser</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>getUsedEmail</servlet-name>
+  <servlet-class>ibm.util.user.getUsedEmail</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>ValidateCodeServlet</servlet-name>
+  <servlet-class>ibm.servlet.validate.ValidateCodeServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>getMoreInfo</servlet-name>
+  <servlet-class>ibm.servlet.download.getMoreInfo</servlet-class>
+ </servlet>
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>updateParams</servlet-name>
+  <servlet-class>ibm.servlet.parameter.updateParams</servlet-class>
+ </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>geInfo</servlet-name>
+    <servlet-class>ibm.servlet.info.geInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getInfo</servlet-name>
+    <servlet-class>ibm.servlet.info.getInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>getDownloads</servlet-name>
+    <servlet-class>ibm.servlet.download.getDownloads</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteDownloads</servlet-name>
+    <servlet-class>ibm.servlet.download.deleteDownloads</servlet-class>
+  </servlet>
+
+
+
+
+ <servlet-mapping>
+  <servlet-name>fileupload</servlet-name>
+  <url-pattern>/fileupload</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ListenTest</servlet-name>
+  <url-pattern>/ListenTest.do</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>Log4jinit</servlet-name>
+  <url-pattern>/Log4jinit.do</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>showProgress</servlet-name>
+  <url-pattern>/showProgress.do</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>MysqlTest</servlet-name>
+  <url-pattern>/myTest.do</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>resourceUpload</servlet-name>
+  <url-pattern>/resourceUpload.do</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>checkRoute</servlet-name>
+  <url-pattern>/checkRoute.do</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>getUsedRoute</servlet-name>
+  <url-pattern>/getUsedRoute.do</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>GetMetaData</servlet-name>
+  <url-pattern>/getMetaData.do</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>NewMetaData</servlet-name>
+  <url-pattern>/NewMetaData.do</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>CatUpload</servlet-name>
+  <url-pattern>/catUpload.do</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>uploadUser</servlet-name>
+  <url-pattern>/uploadUser.do</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>getUsedEmail</servlet-name>
+  <url-pattern>/getUsedEmail.do</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ValidateCodeServlet</servlet-name>
+  <url-pattern>/ValidateCodeServlet.do</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>getMoreInfo</servlet-name>
+  <url-pattern>/getMoreInfo.do</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>updateParams</servlet-name>
+  <url-pattern>/updateParams.do</url-pattern>
+ </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>geInfo</servlet-name>
+    <url-pattern>/servlet/geInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getInfo</servlet-name>
+    <url-pattern>/getInfo.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getDownloads</servlet-name>
+    <url-pattern>/getDownloads.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteDownloads</servlet-name>
+    <url-pattern>/deleteDownloads.do</url-pattern>
+  </servlet-mapping>
+ <welcome-file-list>
+  <welcome-file>index.html</welcome-file>
+ </welcome-file-list>
+ <login-config>
+  <auth-method>BASIC</auth-method>
+ </login-config>
+ <security-role>
+  <description>admin role</description>
+  <role-name>Admin</role-name>
+ </security-role>
+ <security-role>
+  <role-name>Member</role-name>
+ </security-role>
+ <security-role>
+  <role-name>Guest</role-name>
+ </security-role>
+ <resource-ref>
+  <description>ibmcourse</description>
+  <res-ref-name>jdbc/ibmcourse</res-ref-name>
+  <res-type>javax.sql.DataSource</res-type>
+  <res-auth>Container</res-auth>
+ </resource-ref>
+</web-app>

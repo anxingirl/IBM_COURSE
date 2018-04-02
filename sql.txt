@@ -1,0 +1,6 @@
+--------------- SQL ---------------
+
+ALTER TABLE `ResourceSummary` ADD COLUMN `Route` VARCHAR(30) COLLATE utf8_general_ci DEFAULT NULL UNIQUE COMMENT '存放在服务器的相对路径';
+--------------- SQL ---------------
+
+ALTER TABLE `ResourceSummary` ADD COLUMN `Published` BOOLEAN DEFAULT 'N' COMMENT '是否已经发布';

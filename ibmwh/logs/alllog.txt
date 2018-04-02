@@ -1,0 +1,554 @@
+[INFO ] 2012-07-04 15:42:01,287 method:ibm.listener.MyServletContextListener.contextInitialized(MyServletContextListener.java:30)
+SET LOG PATH:D:\Program Files\Apache Software Foundation\Tomcat 6.0\webapps\ibmcourse
+[INFO ] 2012-07-04 15:42:01,348 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalSELECT Param, Value FROM Params 
+[INFO ] 2012-07-04 15:43:04,339 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalSELECT * FROM User where UserID = 8
+[INFO ] 2012-07-04 15:43:04,351 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DownloadCatName, Type, ID from DownloadCat 
+[INFO ] 2012-07-04 15:43:04,353 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect ID, ResourceName,Ab from ResourceSummary order by convert(ResourceName using gb2312) asc
+[INFO ] 2012-07-04 15:43:04,572 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from DownloadCat 
+[INFO ] 2012-07-04 15:43:08,432 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from ResourceDownload Where ResourceID = 1
+[INFO ] 2012-07-04 15:43:49,112 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DownloadCatName, Type, ID from DownloadCat 
+[INFO ] 2012-07-04 15:43:49,114 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect ID, ResourceName,Ab from ResourceSummary order by convert(ResourceName using gb2312) asc
+[INFO ] 2012-07-04 15:43:49,347 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from DownloadCat 
+[INFO ] 2012-07-04 15:43:55,472 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from ResourceDownload Where ResourceID = 1
+[INFO ] 2012-07-04 15:44:11,445 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect CatName,Type, ID from Cat
+[INFO ] 2012-07-04 15:44:11,448 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect TechCatName CatName, Type, ID from TechCat
+[INFO ] 2012-07-04 15:44:11,450 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DomainName CatName,Type, ID from DomainCat
+[INFO ] 2012-07-04 15:44:11,455 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect CatName,Type, ID from Cat
+[INFO ] 2012-07-04 15:44:11,457 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect TechCatName CatName, Type, ID from TechCat
+[INFO ] 2012-07-04 15:44:11,459 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DomainName CatName,Type, ID from DomainCat
+[INFO ] 2012-07-04 15:46:16,667 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DownloadCatName, Type, ID from DownloadCat 
+[INFO ] 2012-07-04 15:46:16,669 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect ID, ResourceName,Ab from ResourceSummary order by convert(ResourceName using gb2312) asc
+[INFO ] 2012-07-04 15:46:16,896 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from DownloadCat 
+[INFO ] 2012-07-04 15:47:24,633 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DownloadCatName, Type, ID from DownloadCat 
+[INFO ] 2012-07-04 15:47:24,635 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect ID, ResourceName,Ab from ResourceSummary order by convert(ResourceName using gb2312) asc
+[INFO ] 2012-07-04 15:47:24,838 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from DownloadCat 
+[INFO ] 2012-07-04 15:47:28,653 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from ResourceDownload Where ResourceID = 1
+[INFO ] 2012-07-04 15:48:04,335 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from User
+[INFO ] 2012-07-04 15:49:10,970 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect CatName,Type, ID from Cat
+[INFO ] 2012-07-04 15:49:10,973 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect TechCatName CatName, Type, ID from TechCat
+[INFO ] 2012-07-04 15:49:10,976 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DomainName CatName,Type, ID from DomainCat
+[INFO ] 2012-07-04 15:49:10,980 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect CatName,Type, ID from Cat
+[INFO ] 2012-07-04 15:49:10,986 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect TechCatName CatName, Type, ID from TechCat
+[INFO ] 2012-07-04 15:49:10,988 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DomainName CatName,Type, ID from DomainCat
+[INFO ] 2012-07-04 15:49:13,921 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DownloadCatName, Type, ID from DownloadCat 
+[INFO ] 2012-07-04 15:49:14,389 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect ID, ResourceName,Ab from ResourceSummary order by convert(ResourceName using gb2312) asc
+[INFO ] 2012-07-04 15:49:14,533 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from DownloadCat 
+[INFO ] 2012-07-04 15:49:18,898 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from ResourceDownload Where ResourceID = 1
+[INFO ] 2012-07-04 15:49:33,784 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from User
+[INFO ] 2012-07-04 15:49:35,678 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from User
+[INFO ] 2012-07-04 15:50:11,796 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect A.ResourceID, ResourceName , count(A.ResourceID) count From ResourceDownload A, ResourceSummary B where A.ResourceID = B.ID group by A.ResourceID order by ResourceID 
+[INFO ] 2012-07-04 15:50:11,798 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect A.ResourceID, ResourceName , count(A.ResourceID) count From ResourceDownload A, ResourceSummary B where A.ResourceID = B.ID group by A.ResourceID order by ResourceID 
+[INFO ] 2012-07-04 15:50:11,801 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect A.ResourceID, ResourceName , count(A.ResourceID) count From ResourceDownload A, ResourceSummary B where A.ResourceID = B.ID group by A.ResourceID order by ResourceID 
+[INFO ] 2012-07-04 15:50:12,576 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DownloadCatName, Type, ID from DownloadCat 
+[INFO ] 2012-07-04 15:50:12,578 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect ID, ResourceName,Ab from ResourceSummary order by convert(ResourceName using gb2312) asc
+[INFO ] 2012-07-04 15:50:12,779 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from DownloadCat 
+[INFO ] 2012-07-04 15:50:14,715 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect ID, ResourceName,Ab from ResourceSummary order by convert(ResourceName using gb2312) asc
+[INFO ] 2012-07-04 15:50:18,325 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DownloadCatName, Type, ID from DownloadCat 
+[INFO ] 2012-07-04 15:50:18,327 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect ID, ResourceName,Ab from ResourceSummary order by convert(ResourceName using gb2312) asc
+[INFO ] 2012-07-04 15:50:18,566 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from DownloadCat 
+[INFO ] 2012-07-04 15:50:19,722 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect A.ResourceID, ResourceName , count(A.ResourceID) count From ResourceDownload A, ResourceSummary B where A.ResourceID = B.ID group by A.ResourceID order by ResourceID 
+[INFO ] 2012-07-04 15:50:19,724 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect A.ResourceID, ResourceName , count(A.ResourceID) count From ResourceDownload A, ResourceSummary B where A.ResourceID = B.ID group by A.ResourceID order by ResourceID 
+[INFO ] 2012-07-04 15:50:19,726 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect A.ResourceID, ResourceName , count(A.ResourceID) count From ResourceDownload A, ResourceSummary B where A.ResourceID = B.ID group by A.ResourceID order by ResourceID 
+[INFO ] 2012-07-04 15:50:21,329 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DownloadCatName, Type, ID from DownloadCat 
+[INFO ] 2012-07-04 15:50:21,332 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect ID, ResourceName,Ab from ResourceSummary order by convert(ResourceName using gb2312) asc
+[INFO ] 2012-07-04 15:50:21,518 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from DownloadCat 
+[INFO ] 2012-07-04 15:50:25,167 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from ResourceDownload Where ResourceID = 1
+[INFO ] 2012-07-04 15:51:09,220 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from ResourceDownload Where ResourceID = 1
+[INFO ] 2012-07-04 15:51:17,017 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DownloadCatName, Type, ID from DownloadCat 
+[INFO ] 2012-07-04 15:51:17,020 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect ID, ResourceName,Ab from ResourceSummary order by convert(ResourceName using gb2312) asc
+[INFO ] 2012-07-04 15:51:17,337 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from DownloadCat 
+[INFO ] 2012-07-04 15:51:21,168 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from ResourceDownload Where ResourceID = 1
+[INFO ] 2012-07-04 15:52:05,827 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DownloadCatName, Type, ID from DownloadCat 
+[INFO ] 2012-07-04 15:52:05,830 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect ID, ResourceName,Ab from ResourceSummary order by convert(ResourceName using gb2312) asc
+[INFO ] 2012-07-04 15:52:06,017 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from DownloadCat 
+[INFO ] 2012-07-04 15:52:09,745 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from ResourceDownload Where ResourceID = 1
+[INFO ] 2012-07-04 15:52:40,340 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DownloadCatName, Type, ID from DownloadCat 
+[INFO ] 2012-07-04 15:52:40,342 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect ID, ResourceName,Ab from ResourceSummary order by convert(ResourceName using gb2312) asc
+[INFO ] 2012-07-04 15:52:40,544 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from DownloadCat 
+[INFO ] 2012-07-04 15:52:43,902 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from ResourceDownload Where ResourceID = 1
+[INFO ] 2012-07-04 15:53:48,407 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DownloadCatName, Type, ID from DownloadCat 
+[INFO ] 2012-07-04 15:53:48,409 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect ID, ResourceName,Ab from ResourceSummary order by convert(ResourceName using gb2312) asc
+[INFO ] 2012-07-04 15:53:48,602 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from DownloadCat 
+[INFO ] 2012-07-04 15:53:52,182 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from ResourceDownload Where ResourceID = 1
+[INFO ] 2012-07-04 15:54:34,894 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DownloadCatName, Type, ID from DownloadCat 
+[INFO ] 2012-07-04 15:54:34,896 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect ID, ResourceName,Ab from ResourceSummary order by convert(ResourceName using gb2312) asc
+[INFO ] 2012-07-04 15:54:35,116 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from DownloadCat 
+[INFO ] 2012-07-04 15:54:38,568 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from ResourceDownload Where ResourceID = 1
+[INFO ] 2012-07-04 16:22:50,106 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DownloadCatName, Type, ID from DownloadCat 
+[INFO ] 2012-07-04 16:22:50,109 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect ID, ResourceName,Ab from ResourceSummary order by convert(ResourceName using gb2312) asc
+[INFO ] 2012-07-04 16:22:50,310 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from DownloadCat 
+[INFO ] 2012-07-04 16:22:54,012 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from ResourceDownload Where ResourceID = 1
+[INFO ] 2012-07-04 16:28:11,814 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DownloadCatName, Type, ID from DownloadCat 
+[INFO ] 2012-07-04 16:28:11,817 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect ID, ResourceName,Ab from ResourceSummary order by convert(ResourceName using gb2312) asc
+[INFO ] 2012-07-04 16:28:11,996 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from DownloadCat 
+[INFO ] 2012-07-04 16:28:18,293 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from ResourceDownload Where ResourceID = 50
+[INFO ] 2012-07-04 16:30:48,717 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DownloadCatName, Type, ID from DownloadCat 
+[INFO ] 2012-07-04 16:30:48,719 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect ID, ResourceName,Ab from ResourceSummary order by convert(ResourceName using gb2312) asc
+[INFO ] 2012-07-04 16:30:48,853 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from DownloadCat 
+[INFO ] 2012-07-04 16:30:51,120 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from ResourceDownload Where ResourceID = 50
+[INFO ] 2012-07-04 16:53:47,053 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from ResourceDownload Where ResourceID = 45
+[INFO ] 2012-07-04 16:54:00,454 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from ResourceDownload Where ResourceID = 1
+[INFO ] 2012-07-04 16:58:34,741 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DownloadCatName, Type, ID from DownloadCat 
+[INFO ] 2012-07-04 16:58:34,746 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect ID, ResourceName,Ab from ResourceSummary order by convert(ResourceName using gb2312) asc
+[INFO ] 2012-07-04 16:58:34,905 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from DownloadCat 
+[INFO ] 2012-07-04 16:58:40,869 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from ResourceDownload Where ResourceID = 1
+[INFO ] 2012-07-04 17:01:50,822 method:ibm.listener.MyServletContextListener.contextInitialized(MyServletContextListener.java:30)
+SET LOG PATH:D:\Program Files\Apache Software Foundation\Tomcat 6.0\webapps\ibmcourse
+[INFO ] 2012-07-04 17:01:51,045 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalSELECT Param, Value FROM Params 
+[INFO ] 2012-07-04 17:23:45,037 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalSELECT * FROM User where UserID = 8
+[INFO ] 2012-07-04 17:23:45,078 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from User
+[INFO ] 2012-07-04 17:37:47,502 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect CatName,Type, ID from Cat
+[INFO ] 2012-07-04 17:37:47,505 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect TechCatName CatName, Type, ID from TechCat
+[INFO ] 2012-07-04 17:37:47,508 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DomainName CatName,Type, ID from DomainCat
+[INFO ] 2012-07-04 17:37:47,511 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect CatName,Type, ID from Cat
+[INFO ] 2012-07-04 17:37:47,514 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect TechCatName CatName, Type, ID from TechCat
+[INFO ] 2012-07-04 17:37:47,517 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DomainName CatName,Type, ID from DomainCat
+[INFO ] 2012-07-04 17:37:48,652 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DownloadCatName, Type, ID from DownloadCat 
+[INFO ] 2012-07-04 17:37:48,655 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DownloadCatName, Type, ID from DownloadCat 
+[INFO ] 2012-07-04 17:37:50,325 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect CatName,Type, ID from Cat
+[INFO ] 2012-07-04 17:37:50,327 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect TechCatName CatName, Type, ID from TechCat
+[INFO ] 2012-07-04 17:37:50,330 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DomainName CatName,Type, ID from DomainCat
+[INFO ] 2012-07-04 17:37:50,331 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect CatName,Type, ID from Cat
+[INFO ] 2012-07-04 17:37:50,334 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect TechCatName CatName, Type, ID from TechCat
+[INFO ] 2012-07-04 17:37:50,336 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DomainName CatName,Type, ID from DomainCat
+[INFO ] 2012-07-04 17:37:53,276 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect CatName,Type, ID from Cat
+[INFO ] 2012-07-04 17:37:53,279 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect TechCatName CatName, Type, ID from TechCat
+[INFO ] 2012-07-04 17:37:53,281 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DomainName CatName,Type, ID from DomainCat
+[INFO ] 2012-07-04 17:37:53,284 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect CatName,Type, ID from Cat
+[INFO ] 2012-07-04 17:37:53,286 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect TechCatName CatName, Type, ID from TechCat
+[INFO ] 2012-07-04 17:37:53,289 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DomainName CatName,Type, ID from DomainCat
+[INFO ] 2012-07-04 17:37:56,666 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DownloadCatName, Type, ID from DownloadCat 
+[INFO ] 2012-07-04 17:37:56,668 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DownloadCatName, Type, ID from DownloadCat 
+[INFO ] 2012-07-04 17:37:59,773 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect CatName,Type, ID from Cat
+[INFO ] 2012-07-04 17:37:59,776 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect TechCatName CatName, Type, ID from TechCat
+[INFO ] 2012-07-04 17:37:59,780 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DomainName CatName,Type, ID from DomainCat
+[INFO ] 2012-07-04 17:37:59,786 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect CatName,Type, ID from Cat
+[INFO ] 2012-07-04 17:37:59,789 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect TechCatName CatName, Type, ID from TechCat
+[INFO ] 2012-07-04 17:37:59,792 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DomainName CatName,Type, ID from DomainCat
+[INFO ] 2012-07-04 17:38:03,250 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DownloadCatName, Type, ID from DownloadCat 
+[INFO ] 2012-07-04 17:38:03,252 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect ID, ResourceName,Ab from ResourceSummary order by convert(ResourceName using gb2312) asc
+[INFO ] 2012-07-04 17:38:03,400 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from DownloadCat 
+[INFO ] 2012-07-04 17:38:06,719 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DownloadCatName, Type, ID from DownloadCat 
+[INFO ] 2012-07-04 17:38:06,724 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DownloadCatName, Type, ID from DownloadCat 
+[INFO ] 2012-07-04 17:38:11,719 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DownloadCatName, Type, ID from DownloadCat 
+[INFO ] 2012-07-04 17:38:11,721 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect ID, ResourceName,Ab from ResourceSummary order by convert(ResourceName using gb2312) asc
+[INFO ] 2012-07-04 17:38:11,863 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from DownloadCat 
+[INFO ] 2012-07-04 17:38:35,891 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from ResourceDownload Where ResourceID = 1
+[INFO ] 2012-07-04 20:01:21,978 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalSELECT * FROM User where UserID = 8
+[INFO ] 2012-07-04 20:01:21,997 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect DownloadCatName, Type, ID from DownloadCat 
+[INFO ] 2012-07-04 20:01:22,001 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect ID, ResourceName,Ab from ResourceSummary order by convert(ResourceName using gb2312) asc
+[INFO ] 2012-07-04 20:01:22,152 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from DownloadCat 
+[INFO ] 2012-07-04 20:01:25,983 method:ibm.util.mysql.conn.excuteRetrival(conn.java:185)
+executeRetrivalselect * from ResourceDownload Where ResourceID = 1
+[INFO ] 2012-07-05 14:50:03,657 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:221)
+已经读取了上传信息
+[INFO ] 2012-07-05 14:50:03,660 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:229)
+依次处理上传文件
+[INFO ] 2012-07-05 14:50:03,660 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:tmpName
+[INFO ] 2012-07-05 14:50:03,660 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:245)
+tmpName2l082vw6int5
+[INFO ] 2012-07-05 14:50:03,660 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:wholename
+[INFO ] 2012-07-05 14:50:03,660 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:shortname
+[INFO ] 2012-07-05 14:50:03,661 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:year
+[INFO ] 2012-07-05 14:50:03,661 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:253)
+get a file name:濂囧.zip
+[INFO ] 2012-07-05 14:50:03,661 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:path1
+[INFO ] 2012-07-05 14:50:41,498 method:ibm.util.mysql.conn.excuteRetrival(conn.java:183)
+executeRetrivalSelect * from ResourceSummary where Ab='qimiao'
+[INFO ] 2012-07-05 14:50:41,551 method:ibm.servlet.upload.resourceUpload.doGet(resourceUpload.java:69)
+realPath=D:\Program Files\Apache Software Foundation\Tomcat 6.0\webapps\ibmcourse/web/course
+[INFO ] 2012-07-05 14:50:41,552 method:ibm.servlet.upload.resourceUpload.doGet(resourceUpload.java:70)
+tmpPath=D:\Program Files\Apache Software Foundation\Tomcat 6.0\webapps\ibmcourse/web/course\temp\2l082vw6int5
+[INFO ] 2012-07-05 14:50:41,696 method:ibm.util.mysql.conn.excuteUpdate(conn.java:125)
+执行更新 sql:----------insert into ResourceSummary (date,year,resourceName,ab,route) values ( ?, ?, ?, ?, ?)
+[INFO ] 2012-07-05 14:50:41,697 method:ibm.util.mysql.conn.excuteUpdate(conn.java:132)
+准备处理第0个参数： 2012-07-05 14:50:41
+[INFO ] 2012-07-05 14:50:41,698 method:ibm.util.mysql.conn.excuteUpdate(conn.java:132)
+准备处理第1个参数： 1995
+[INFO ] 2012-07-05 14:50:41,698 method:ibm.util.mysql.conn.excuteUpdate(conn.java:132)
+准备处理第2个参数： 奇妙
+[INFO ] 2012-07-05 14:50:41,698 method:ibm.util.mysql.conn.excuteUpdate(conn.java:132)
+准备处理第3个参数： qimiao
+[INFO ] 2012-07-05 14:50:41,698 method:ibm.util.mysql.conn.excuteUpdate(conn.java:132)
+准备处理第4个参数： qimiao
+[INFO ] 2012-07-05 14:50:41,744 method:ibm.util.mysql.conn.excuteUpdate(conn.java:137)
+更新完成
+[INFO ] 2012-07-05 14:54:14,008 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:221)
+已经读取了上传信息
+[INFO ] 2012-07-05 14:54:14,008 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:229)
+依次处理上传文件
+[INFO ] 2012-07-05 14:54:14,009 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:tmpName
+[INFO ] 2012-07-05 14:54:14,009 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:245)
+tmpNamet6wsns97k88o
+[INFO ] 2012-07-05 14:54:14,009 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:wholename
+[INFO ] 2012-07-05 14:54:14,009 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:shortname
+[INFO ] 2012-07-05 14:54:14,010 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:year
+[INFO ] 2012-07-05 14:54:14,010 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:253)
+get a file name:濂囧.zip
+[INFO ] 2012-07-05 14:54:14,010 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:path1
+[INFO ] 2012-07-05 14:54:27,600 method:ibm.util.mysql.conn.excuteRetrival(conn.java:183)
+executeRetrivalSelect * from ResourceSummary where Ab='qfdg'
+[INFO ] 2012-07-05 14:54:27,649 method:ibm.servlet.upload.resourceUpload.doGet(resourceUpload.java:69)
+realPath=D:\Program Files\Apache Software Foundation\Tomcat 6.0\webapps\ibmcourse/web/course
+[INFO ] 2012-07-05 14:54:27,649 method:ibm.servlet.upload.resourceUpload.doGet(resourceUpload.java:70)
+tmpPath=D:\Program Files\Apache Software Foundation\Tomcat 6.0\webapps\ibmcourse/web/course\temp\t6wsns97k88o
+[INFO ] 2012-07-05 14:54:27,790 method:ibm.util.mysql.conn.excuteUpdate(conn.java:125)
+执行更新 sql:----------insert into ResourceSummary (date,year,resourceName,ab,route) values ( ?, ?, ?, ?, ?)
+[INFO ] 2012-07-05 14:54:27,791 method:ibm.util.mysql.conn.excuteUpdate(conn.java:132)
+准备处理第0个参数： 2012-07-05 14:54:27
+[INFO ] 2012-07-05 14:54:27,791 method:ibm.util.mysql.conn.excuteUpdate(conn.java:132)
+准备处理第1个参数： 2012
+[INFO ] 2012-07-05 14:54:27,791 method:ibm.util.mysql.conn.excuteUpdate(conn.java:132)
+准备处理第2个参数： 奇妙3
+[INFO ] 2012-07-05 14:54:27,792 method:ibm.util.mysql.conn.excuteUpdate(conn.java:132)
+准备处理第3个参数： qfdg
+[INFO ] 2012-07-05 14:54:27,792 method:ibm.util.mysql.conn.excuteUpdate(conn.java:132)
+准备处理第4个参数： qfdg
+[INFO ] 2012-07-05 14:54:27,825 method:ibm.util.mysql.conn.excuteUpdate(conn.java:137)
+更新完成
+[INFO ] 2012-07-05 14:55:27,836 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:221)
+已经读取了上传信息
+[INFO ] 2012-07-05 14:55:27,837 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:229)
+依次处理上传文件
+[INFO ] 2012-07-05 14:55:27,837 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:tmpName
+[INFO ] 2012-07-05 14:55:27,837 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:245)
+tmpNamef40c32p5jcl9
+[INFO ] 2012-07-05 14:55:27,837 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:wholename
+[INFO ] 2012-07-05 14:55:27,837 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:shortname
+[INFO ] 2012-07-05 14:55:27,838 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:year
+[INFO ] 2012-07-05 14:55:27,838 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:253)
+get a file name:濂囧.zip
+[INFO ] 2012-07-05 14:55:27,838 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:path1
+[INFO ] 2012-07-05 14:55:39,358 method:ibm.util.mysql.conn.excuteRetrival(conn.java:183)
+executeRetrivalSelect * from ResourceSummary where Ab='qimiao'
+[INFO ] 2012-07-05 14:55:39,361 method:ibm.util.mysql.conn.valueExist(conn.java:218)
+ResultSet no null
+[INFO ] 2012-07-05 14:55:47,126 method:ibm.util.mysql.conn.excuteRetrival(conn.java:183)
+executeRetrivalSelect * from ResourceSummary where Ab='qimiaoytry'
+[INFO ] 2012-07-05 14:55:47,162 method:ibm.servlet.upload.resourceUpload.doGet(resourceUpload.java:69)
+realPath=D:\Program Files\Apache Software Foundation\Tomcat 6.0\webapps\ibmcourse/web/course
+[INFO ] 2012-07-05 14:55:47,162 method:ibm.servlet.upload.resourceUpload.doGet(resourceUpload.java:70)
+tmpPath=D:\Program Files\Apache Software Foundation\Tomcat 6.0\webapps\ibmcourse/web/course\temp\f40c32p5jcl9
+[INFO ] 2012-07-05 14:55:47,222 method:ibm.util.mysql.conn.excuteUpdate(conn.java:125)
+执行更新 sql:----------insert into ResourceSummary (date,year,resourceName,ab,route) values ( ?, ?, ?, ?, ?)
+[INFO ] 2012-07-05 14:55:47,223 method:ibm.util.mysql.conn.excuteUpdate(conn.java:132)
+准备处理第0个参数： 2012-07-05 14:55:47
+[INFO ] 2012-07-05 14:55:47,223 method:ibm.util.mysql.conn.excuteUpdate(conn.java:132)
+准备处理第1个参数： 2012
+[INFO ] 2012-07-05 14:55:47,224 method:ibm.util.mysql.conn.excuteUpdate(conn.java:132)
+准备处理第2个参数： 奇妙
+[INFO ] 2012-07-05 14:55:47,224 method:ibm.util.mysql.conn.excuteUpdate(conn.java:132)
+准备处理第3个参数： qimiaoytry
+[INFO ] 2012-07-05 14:55:47,224 method:ibm.util.mysql.conn.excuteUpdate(conn.java:132)
+准备处理第4个参数： qimiaoytry
+[INFO ] 2012-07-05 14:55:47,265 method:ibm.util.mysql.conn.excuteUpdate(conn.java:137)
+更新完成
+[INFO ] 2012-07-05 14:56:54,713 method:ibm.util.mysql.conn.excuteRetrival(conn.java:183)
+executeRetrivalselect ID, ResourceName,Ab from ResourceSummary order by convert(ResourceName using gb2312) asc
+[INFO ] 2012-07-05 15:01:00,700 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:216)
+已经设定了监听器
+[INFO ] 2012-07-05 15:01:02,932 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:221)
+已经读取了上传信息
+[INFO ] 2012-07-05 15:01:02,932 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:229)
+依次处理上传文件
+[INFO ] 2012-07-05 15:01:02,932 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:tmpName
+[INFO ] 2012-07-05 15:01:02,933 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:245)
+tmpName9lgqnk6boiz5
+[INFO ] 2012-07-05 15:01:02,933 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:wholename
+[INFO ] 2012-07-05 15:01:02,933 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:shortname
+[INFO ] 2012-07-05 15:01:02,933 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:year
+[INFO ] 2012-07-05 15:01:02,933 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:253)
+get a file name:濂囧.mp3
+[INFO ] 2012-07-05 15:01:02,934 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:path1
+[INFO ] 2012-07-05 15:03:36,668 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:216)
+已经设定了监听器
+[INFO ] 2012-07-05 15:03:38,866 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:221)
+已经读取了上传信息
+[INFO ] 2012-07-05 15:03:38,866 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:229)
+依次处理上传文件
+[INFO ] 2012-07-05 15:03:38,866 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:tmpName
+[INFO ] 2012-07-05 15:03:38,866 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:245)
+tmpNamelnj4a383djfh
+[INFO ] 2012-07-05 15:03:38,867 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:wholename
+[INFO ] 2012-07-05 15:03:38,867 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:shortname
+[INFO ] 2012-07-05 15:03:38,867 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:year
+[INFO ] 2012-07-05 15:03:38,867 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:253)
+get a file name:濂囧.mp3
+[INFO ] 2012-07-05 15:03:38,868 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:path1
+[INFO ] 2012-07-05 15:04:39,876 method:ibm.listener.MyServletContextListener.contextInitialized(MyServletContextListener.java:30)
+SET LOG PATH:D:\Program Files\Apache Software Foundation\Tomcat 6.0\webapps\ibmcourse
+[INFO ] 2012-07-05 15:04:39,927 method:ibm.util.mysql.conn.excuteRetrival(conn.java:183)
+executeRetrivalSELECT Param, Value FROM Params 
+[INFO ] 2012-07-05 16:13:04,237 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:221)
+已经读取了上传信息
+[INFO ] 2012-07-05 16:13:04,238 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:229)
+依次处理上传文件
+[INFO ] 2012-07-05 16:13:04,238 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:tmpName
+[INFO ] 2012-07-05 16:13:04,238 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:245)
+tmpNameznc7lpbaensl
+[INFO ] 2012-07-05 16:13:04,238 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:wholename
+[INFO ] 2012-07-05 16:13:04,238 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:shortname
+[INFO ] 2012-07-05 16:13:04,238 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:year
+[INFO ] 2012-07-05 16:13:04,239 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:253)
+get a file name:奇妙.zip
+[INFO ] 2012-07-05 16:13:04,239 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:path1
+[INFO ] 2012-07-05 16:13:36,564 method:ibm.util.mysql.conn.excuteRetrival(conn.java:183)
+executeRetrivalSelect * from ResourceSummary where Ab='qdgsgg'
+[INFO ] 2012-07-05 16:13:36,590 method:ibm.servlet.upload.resourceUpload.doGet(resourceUpload.java:69)
+realPath=/usr/share/tomcat6/webapps/ibmcourse/courses
+[INFO ] 2012-07-05 16:13:36,590 method:ibm.servlet.upload.resourceUpload.doGet(resourceUpload.java:70)
+tmpPath=/usr/share/tomcat6/webapps/ibmcourse/courses/temp/znc7lpbaensl
+[INFO ] 2012-07-05 16:16:45,904 method:ibm.util.mysql.conn.excuteRetrival(conn.java:183)
+executeRetrivalSelect * from ResourceSummary where Ab='qdgsgg'
+[INFO ] 2012-07-05 16:16:45,937 method:ibm.servlet.upload.resourceUpload.doGet(resourceUpload.java:69)
+realPath=/usr/share/tomcat6/webapps/ibmcourse/courses
+[INFO ] 2012-07-05 16:16:45,937 method:ibm.servlet.upload.resourceUpload.doGet(resourceUpload.java:70)
+tmpPath=/usr/share/tomcat6/webapps/ibmcourse/courses/temp/znc7lpbaensl
+[INFO ] 2012-07-05 16:20:23,686 method:ibm.util.mysql.conn.excuteRetrival(conn.java:183)
+executeRetrivalSelect * from ResourceSummary where Ab='fsdfs'
+[INFO ] 2012-07-05 16:20:23,716 method:ibm.servlet.upload.resourceUpload.doGet(resourceUpload.java:69)
+realPath=/usr/share/tomcat6/webapps/ibmcourse/courses
+[INFO ] 2012-07-05 16:20:23,716 method:ibm.servlet.upload.resourceUpload.doGet(resourceUpload.java:70)
+tmpPath=/usr/share/tomcat6/webapps/ibmcourse/courses/temp/s5odzrlb69fo
+[INFO ] 2012-07-05 16:20:27,994 method:ibm.util.mysql.conn.excuteRetrival(conn.java:183)
+executeRetrivalSelect * from ResourceSummary where Ab='fsdfs'
+[INFO ] 2012-07-05 16:20:28,026 method:ibm.servlet.upload.resourceUpload.doGet(resourceUpload.java:69)
+realPath=/usr/share/tomcat6/webapps/ibmcourse/courses
+[INFO ] 2012-07-05 16:20:28,026 method:ibm.servlet.upload.resourceUpload.doGet(resourceUpload.java:70)
+tmpPath=/usr/share/tomcat6/webapps/ibmcourse/courses/temp/s5odzrlb69fo
+[INFO ] 2012-07-05 16:30:36,704 method:ibm.listener.MyServletContextListener.contextInitialized(MyServletContextListener.java:30)
+SET LOG PATH:/usr/share/tomcat6/webapps/ibmcourse
+[INFO ] 2012-07-05 16:30:36,715 method:ibm.util.mysql.conn.excuteRetrival(conn.java:183)
+executeRetrivalSELECT Param, Value FROM Params 
+[INFO ] 2012-07-05 16:30:47,506 method:ibm.util.mysql.conn.excuteRetrival(conn.java:183)
+executeRetrivalSELECT * FROM User where UserID = 8
+[INFO ] 2012-07-05 16:33:40,435 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:216)
+已经设定了监听器
+[INFO ] 2012-07-05 16:33:40,788 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:221)
+已经读取了上传信息
+[INFO ] 2012-07-05 16:33:40,788 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:229)
+依次处理上传文件
+[INFO ] 2012-07-05 16:33:40,788 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:tmpName
+[INFO ] 2012-07-05 16:33:40,788 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:245)
+tmpNamesgu2pb24551p
+[INFO ] 2012-07-05 16:33:40,788 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:wholename
+[INFO ] 2012-07-05 16:33:40,788 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:shortname
+[INFO ] 2012-07-05 16:33:40,789 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:year
+[INFO ] 2012-07-05 16:33:40,789 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:253)
+get a file name:奇妙.zip
+[INFO ] 2012-07-05 16:33:40,789 method:ibm.servlet.upload.fileupload.doPost(fileupload.java:239)
+itemGetFieldName:path1
+[INFO ] 2012-07-05 16:33:52,334 method:ibm.util.mysql.conn.excuteRetrival(conn.java:183)
+executeRetrivalSelect * from ResourceSummary where Ab='dsgsdg'
+[INFO ] 2012-07-05 16:33:52,367 method:ibm.servlet.upload.resourceUpload.doGet(resourceUpload.java:69)
+realPath=/usr/share/tomcat6/webapps/ibmcourse/courses
+[INFO ] 2012-07-05 16:33:52,368 method:ibm.servlet.upload.resourceUpload.doGet(resourceUpload.java:70)
+tmpPath=/usr/share/tomcat6/webapps/ibmcourse/courses/temp/sgu2pb24551p
+[INFO ] 2012-07-05 16:33:52,379 method:ibm.util.mysql.conn.excuteUpdate(conn.java:125)
+执行更新 sql:----------insert into ResourceSummary (resourceName,date,year,ab,route) values ( ?, ?, ?, ?, ?)
+[INFO ] 2012-07-05 16:33:52,379 method:ibm.util.mysql.conn.excuteUpdate(conn.java:132)
+准备处理第0个参数： 请记得双节棍
+[INFO ] 2012-07-05 16:33:52,380 method:ibm.util.mysql.conn.excuteUpdate(conn.java:132)
+准备处理第1个参数： 2012-07-05 16:33:52
+[INFO ] 2012-07-05 16:33:52,380 method:ibm.util.mysql.conn.excuteUpdate(conn.java:132)
+准备处理第2个参数： 2012
+[INFO ] 2012-07-05 16:33:52,380 method:ibm.util.mysql.conn.excuteUpdate(conn.java:132)
+准备处理第3个参数： dsgsdg
+[INFO ] 2012-07-05 16:33:52,380 method:ibm.util.mysql.conn.excuteUpdate(conn.java:132)
+准备处理第4个参数： dsgsdg
+[INFO ] 2012-07-05 16:33:52,454 method:ibm.util.mysql.conn.excuteUpdate(conn.java:137)
+更新完成
+[INFO ] 2012-07-05 16:35:42,323 method:ibm.util.mysql.conn.excuteRetrival(conn.java:183)
+executeRetrivalSelect * from ResourceSummary where Ab='dsgsdg'
+[INFO ] 2012-07-05 16:35:42,324 method:ibm.util.mysql.conn.valueExist(conn.java:218)
+ResultSet no null
+[INFO ] 2012-07-05 16:35:55,335 method:ibm.util.mysql.conn.excuteRetrival(conn.java:183)
+executeRetrivalSelect * from ResourceSummary where Ab='dsgs'
+[INFO ] 2012-07-05 16:35:55,360 method:ibm.servlet.upload.resourceUpload.doGet(resourceUpload.java:69)
+realPath=/usr/share/tomcat6/webapps/ibmcourse/courses
+[INFO ] 2012-07-05 16:35:55,360 method:ibm.servlet.upload.resourceUpload.doGet(resourceUpload.java:70)
+tmpPath=/usr/share/tomcat6/webapps/ibmcourse/courses/temp/sgu2pb24551p
+[INFO ] 2012-07-05 16:35:55,423 method:ibm.util.mysql.conn.excuteUpdate(conn.java:125)
+执行更新 sql:----------insert into ResourceSummary (resourceName,date,year,ab,route) values ( ?, ?, ?, ?, ?)
+[INFO ] 2012-07-05 16:35:55,423 method:ibm.util.mysql.conn.excuteUpdate(conn.java:132)
+准备处理第0个参数： 请记得双节棍
+[INFO ] 2012-07-05 16:35:55,423 method:ibm.util.mysql.conn.excuteUpdate(conn.java:132)
+准备处理第1个参数： 2012-07-05 16:35:55
+[INFO ] 2012-07-05 16:35:55,423 method:ibm.util.mysql.conn.excuteUpdate(conn.java:132)
+准备处理第2个参数： 2012
+[INFO ] 2012-07-05 16:35:55,423 method:ibm.util.mysql.conn.excuteUpdate(conn.java:132)
+准备处理第3个参数： dsgs
+[INFO ] 2012-07-05 16:35:55,423 method:ibm.util.mysql.conn.excuteUpdate(conn.java:132)
+准备处理第4个参数： dsgs
+[INFO ] 2012-07-05 16:35:55,479 method:ibm.util.mysql.conn.excuteUpdate(conn.java:137)
+更新完成

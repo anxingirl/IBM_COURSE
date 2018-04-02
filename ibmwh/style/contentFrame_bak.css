@@ -1,0 +1,55 @@
+/* CSS Document */
+
+
+.tab-head td{
+	font-size:14px;
+		height:30px;
+}
+.tab-row td{
+	font-size:12px;
+	height: 25px;
+	overflow: hidden
+}
+.file-row{
+	text-align:right;
+	font-family:"ËÎÌו";}
+.file-form{
+    border:#000000 1px solid;
+	size:30px;
+	float:right;
+}
+.form-button{
+	font-size:10px;
+	}
+.rightpart_main{
+ 	position: relative;
+ 	left: 50px;
+ 	top: 50px;
+}
+.column-long {
+	width: 170px;
+	height: 25px;
+}
+.column-middle {
+	width: 90px;
+	height:25px;
+}
+.column-short {
+	width: 50px;
+	height:25px;
+}
+.small-button {
+	height:20px; 
+	border-width: 0px; 
+	background: #FFFFFF
+}
+.uploadbutton {
+	border-color:#FF3333
+}
+.file {
+	height:24px; 
+	filter:alpha(opacity:0);
+	opacity: 0;
+	width:260px;
+	position:absolute 
+}

@@ -1,0 +1,159 @@
+.header {
+	clear: both;
+	height: 81px;
+	margin: auto;
+	width: 960px;
+}
+
+.logo {
+	background-image: url(../image/header.jpg);
+	height: 81px;
+	width: 637px;
+	float:left
+}
+.banner {
+	background:url(../image/banner.jpg) no-repeat scroll 0 0 #000000;
+	float:left;
+	height: 81px;
+	width: 323px;
+}
+
+#nav {
+	background: url("../image/bar.jpg") no-repeat scroll 0 0 transparent;
+	height: 25px;
+}
+
+#upmenu ul li a {
+	color: #EAFFED;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+a:link, a:visited{
+	color: #000000;
+	font-size: 12px;
+	text-decoration: none;
+}
+#upmenu ul li {
+	list-style: none outeside none;
+}
+
+.menubar {
+	background-color: #999999;
+	font-size:12px;
+	color:#FFFFFF;
+	font-family: "Arial Unicode MS";
+	width: 960px;
+	height: 29px;
+	overflow: hidden;
+	position: relative;
+}
+
+body {
+	text-align: center;
+	color:#000000;
+	margin: auto;
+	font-size: 12px;
+	font-family: Arial,Helvetica,Verdana,Sans-serif;
+}
+.page {
+	background-image: url(../image/left.jpg);
+	background-repeat: repeat-y;
+	display: table;
+	clear: both;
+}
+
+#upmenu ul li{
+	color:#FFFFFF;
+	font: 12px;
+	list-style: none outside none;
+}
+
+#context {
+	margin: auto;
+	width: 960px;
+}
+.left {
+	background-image: url(../image/plus_black.png);
+	background-repeat: no-repeat;
+	background-position: 10px;
+	padding-left:20px;
+	padding-right:15px;
+}
+.left:hover {
+	background-image: url(../image/plus_orange.png);
+	background-position: 10px;
+
+}
+.leftchild {
+	background-image: url(../image/plus_black.png);
+	background-repeat: no-repeat;
+	background-position: 20px;
+	padding-left:30px;
+	padding-right:10px;
+}
+.leftchild:hover {
+	background-image: url(../image/plus_orange.png);
+	background-position: 20px;
+
+}
+.leftli {
+	background-image:url(../image/minus_black.png);
+	background-repeat: no-repeat;
+	background-position: 30px;
+	padding-left:40px;
+	padding-right:5px;
+}
+.leftli:hover{
+	background-image:url(../image/minus_orange.png);
+	background-position:30px;
+}
+.leftchild a {
+	color: #000000;
+	text-decoration: none;
+}
+.leftli a {
+	color: #000000;
+	text-decoration: none;
+}
+.leftend {
+	color: #000000;
+	text-decoration: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-image: url(../image/minus_black.png);
+	background-repeat: no-repeat;
+	background-position: 10px;
+	font: 14px;
+}
+.leftend:hover{
+	background-image:url(../image/minus_orange.png);
+	background-position:10px;
+}
+.rightpart {
+	background-color: #FFFFFF;
+	width: 780px;
+	float: left;
+}
+.frame {
+	width: 750px;
+}
+
+
+#menu {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+}
+
+#leftpart {
+	width: 160px;
+	float: left;
+	overflow: hidden;
+}
+#rightpart {
+}
+#currentinfo {
+	height: 80px;
+}

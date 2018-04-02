@@ -1,0 +1,3 @@
+--------------- SQL ---------------
+
+ALTER TABLE `ResourceSummary` ADD COLUMN `Route` VARCHAR(30) COLLATE utf8_general_ci DEFAULT NULL UNIQUE COMMENT '存放在服务器的相对路径';

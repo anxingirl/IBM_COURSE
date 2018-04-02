@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.0" xmlns="http://java.sun.com/xml/ns/j2ee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/webjsptaglibrary_2_0.xsd">
+ <description>functions library by chengxueying, 2012-04-13</description>
+ <display-name>basic functions that can be reused by jsp</display-name>
+ <tlib-version>1.2</tlib-version>
+ <short-name>myfunc</short-name>
+ <uri>myFunctions</uri>
+ <function>
+  <name>getRandomStr</name>
+  <function-class>ibm.util.tool.func</function-class>
+  <function-signature>String getRandomString(int)</function-signature>
+ </function>
+ <function>
+  <name>toSHA</name>
+  <function-class>ibm.util.tool.StringUtil</function-class>
+  <function-signature>String transSHA(java.lang.String)</function-signature>
+ </function>
+</taglib>

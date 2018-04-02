@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<title>ibm course</title>
+		<script language="JavaScript" type="text/javascript"
+			src="js/jquery-1.7.1.js"></script>
+			
+		<style type="text/css">
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align: center;
+	color: #000000;
+	margin: auto;
+	font-size: 12px;
+	font-family: Arial, Helvetica, Verdana, Sans-serif;
+}
+
+#context {
+	width: 960px;
+	margin: auto;
+}
+
+.header {
+	clear: both;
+	height: 81px;
+	margin: auto;
+	width: 960px;
+}
+
+.logo {
+	background-image: url(image/header.jpg);
+	height: 81px;
+	width: 637px;
+	float: left
+}
+
+.banner {
+	background: url(image/banner.jpg) no-repeat scroll 0 0 #000000;
+	float: left;
+	height: 81px;
+	width: 323px;
+}
+
+#nav {
+	background: url(image/bar.jpg) no-repeat scroll 0 0 #000000;
+	width: 960px;
+	height: 25px;
+}
+
+#nav li {
+	float: right;
+}
+
+#nav li {
+	display: inline;
+	list-style-type: none;
+	color: white;
+}
+
+#nav li a:link {
+	float: left;
+	padding: 5px 12px;
+	color: #fff;
+	text-decoration: none;
+}
+
+#nav li a:visited {
+	float: left;
+	padding: 5px 12px;
+	color: #fff;
+	text-decoration: none;
+	background: #06c;
+}
+
+#nav li a:hover {
+	background: #060;
+}
+
+#main {
+	background: url(image/page_shadow.jpg) repeat-y scroll 0 0 transparent;
+	overflow: auto;
+	width: 960px;
+}
+
+#sidebar {
+	float: left;
+	width: 160px;
+	height:580px;
+}
+
+#rightpart {
+	float: left;
+	width: 800px;
+}
+
+#introduce {
+	margin: 0 35px 0 0px;
+	padding-top:5px;
+	width:153px;
+	border: medium solid #006699;
+	background-color: #006699;
+	color:#cccccc;
+}
+#inter {
+	width:158px;
+	height:20px;
+}
+#footer {
+	background: url(image/bottom_IBM.jpg) no-repeat scroll right bottom
+		#000000;
+	border-top: 2px groove #FFFFFF;
+	clear: both;
+	height: 70px;
+}
+
+#menu {
+	font-size: 14px;
+	line-height: 22px;
+}
+
+#menu a:link,a:visited{
+	text-decoration: none;
+	color: #000000;
+}
+
+.left {
+	background: url(image/plus_black.png) no-repeat;
+	background-position: 30px 50%;
+	padding-left: 5px;
+	padding-right: 15px;
+}
+
+.leftchild {
+	background: url(image/plus_black.png) no-repeat;
+	background-position: 40px 50%;
+	padding-left: 15px;
+	padding-right: 10px;
+}
+
+.leftli {
+	background: url(image/minus_black.png) no-repeat;
+	background-position: 50px 50%;
+	background: none;
+	padding-left: 25px;
+	padding-right: 5px;
+}
+
+#contentFrame {
+	float: right;
+	width:750px;
+
+	margin-right:20px;
+}
+</style>
+	</head>
+
+	<body>
+		<div id="context">
+			<div class="header">
+				<div class="logo">
+				</div>
+				<div class="banner">
+				</div>
+			</div>
+			<ul id="nav">
+				<li>
+					<a href="web/man_pages/logout.jsp" target=contentFrame>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;退出&nbsp;&nbsp;&nbsp;&nbsp;</a>
+				</li>
+				<li>
+					<a href="myAccount.jsp" target=contentFrame>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我的账户&nbsp;&nbsp;&nbsp;&nbsp;</a>
+				</li>
+				<li>
+					<a href="main.jsp" target=contentFrame>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;首页&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>&nbsp;
+				</li>
+			</ul>
+			<div id="main">
+				<div id="sidebar">
+					<div id="introduce" background-color="#6699cc">
+						<table >
+							<tr>
+								<td>
+									“ 教育部-IBM高校合作项目资源中心 ” 所提供的所有教学资源与相关信息，不能用于任何商业目的，IBM保留一切解释权。 
+								</td>
+							</tr>
+						</table>
+					</div>
+				<div id="inter">
+					
+				</div>
+					<div id=menu>
+						<!-- menu -->
+						<div>
+							<!--电子图书-->
+							<div class=left>
+								资源管理
+							</div>
+							<div>
+								<div>
+									<div class=leftchild>
+										资料上传
+									</div>
+									<div>
+										<div class="leftli">
+											<a href="web/man_resource/resource_upload.jsp"
+												target=contentFrame>上传页面</a>
+										</div>
+										<div class="leftli">
+											<a href="web/man_resource/data_init.jsp" target=contentFrame>元数据</a>
+										</div>
+									</div>
+								</div>
+								<div>
+									<div class=leftchild>
+										下载管理
+									</div>
+									<div>
+										<div class=leftli>
+											<a href="web/man_resource/resource_download.jsp"
+												target=contentFrame>下载分类</a>
+										</div>
+										<div class=leftli>
+											<a href="web/man_resource/download_control.jsp"
+												target=contentFrame>资源下载</a>
+										</div>
+										<div class=leftli>
+											<a href="web/man_resource/user_download.jsp"
+												target=contentFrame>用户下载</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class=left>
+								参数管理
+							</div>
+							<div>
+								<div class=leftli>
+									<a href="web/man_parameter/setParameter.jsp"
+										target=contentFrame>页面参数</a>
+								</div>
+								<div class=leftli>
+									<a href="web/man_parameter/Cat.jsp"
+										target=contentFrame>资源分类</a>
+								</div>
+								<div class=leftli>
+									<a href="web/man_parameter/downloadCat.jsp"
+										target=contentFrame>下载分类</a>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class=left>
+								用户管理
+							</div>
+							<div>
+							<div class="leftli">
+								<a href="web/man_user/setUser.jsp"
+										target=contentFrame>设置用户</a>
+							</div>
+							<div class=leftli>
+									<a href="web/man_user/addUser.jsp"
+										target=contentFrame>增加用户</a>
+								</div>
+								<div class=leftli>
+									<a href="web/man_user/deleteUser.jsp"
+										target=contentFrame>删除用户</a>
+								</div>
+							</div>
+							
+						</div>
+						<!--电子图书(END)-->
+					</div>
+					<!-- menu(END) -->
+				</div>
+				<div id="rightpart">
+			<iframe id="contentFrame" class="frame"
+				src="index.jsp"
+				style="over-flow:auto;height:580px;" frameborder=0 name=contentFrame></iframe>
+		</div>
+		</div>
+			<div id="footer"></div>
+		</div>
+		
+
+
+		<script language=JavaScript type=text/javascript src="js/menu.js"></script>
+
+		<script language=JavaScript type=text/javascript src="js/index.js"></script>
+	</body>
+</html>

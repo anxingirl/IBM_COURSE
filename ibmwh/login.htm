@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"   
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
+<html>  
+<head>  
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />  
+<title>IBM-高校合作资料中心 用户中心</title>  
+<link href="css/default.css" rel="stylesheet" type="text/css" />
+</head>  
+<script LANGUAGE="JavaScript">
+function check(myForm) {
+	if (myForm.passwd.value == "" || myForm.email.value == "" ){
+		alert("空值，*为必填选项！")
+		return (false)
+	}
+		
+	if (myForm.email.value!="")
+	{
+		if(!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(myForm.email.value))){
+		alert("E-mail格式不正确，请重新输入！")
+		return (false)
+		}
+	}
+	return (true)
+}
+</script>
+
+<body>  
+<div id="container">  
+	<div id="header">
+		<div id="logo"></div>
+		<div id="banner"></div>
+	</div> 
+	<div id="nav">
+		<div id="menu">
+		<ul>
+			<li><a href="index.jsp">首页</a></li>
+			<li><a href="reg.jsp">注册</a>&nbsp;/&nbsp;<a href="login.htm">登录</a></li>
+			<li><a href="chart.jsp">访问/下载统计</a></li>
+		</ul>
+		</div>
+	</div>
+	<div id="main-template">
+		<div id="register">
+		<form name="form1" method="post" onSubmit="return check(this)" action="logged.jsp?para=L">
+				<table width="600" height="148" border="0" cellpadding="1" cellspacing="1">					
+				<tr>
+				  <td height="35" colspan="2" align="center" valign="middle"><h2>用户登录</h2></td>
+				  </tr>
+				<tr>
+				  <td width="20%" height="35" align="right" valign="middle">注册email</td>
+				  <td width="80%" height="35" align="left" valign="middle"><input type="text" name="email" size="24" />&nbsp;*</td>
+				</tr>
+					<tr>
+					  <td height="35" align="right" valign="middle">密码</td>
+					  <td align="left" ><input name="passwd" type="password" size="26">
+					  &nbsp;*</td>
+					</tr>
+
+				  <tr>
+					<td height="38" colspan="2">
+					<table width="90%" height="27" border="0" cellpadding="0" cellspacing="0">
+					  <tr>
+						<td width="29" height="27">&nbsp;</td>
+						<td width="273" > 提示：登录用户才能浏览全文并下载。 </td>
+						<td width="234"><input class="selectlink" type="submit" name="Submit" value="登录">
+						  <input class="selectlink" name="reset" type="reset" id="reset" value="清除"></td>
+					  </tr>
+					</table></td>
+					</tr>
+				</table>
+		  </form>
+		</div>
+	</div>
+	<div id="footer">Footer</div>  
+</div>  
+  
+</body>  
+</html>     

@@ -1,0 +1,21 @@
+#outside {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0px;
+	font-size: 12px;
+	margin: 0px auto;
+}
+.page {
+}
+.page {
+	font-family: 12px;
+	margin: 0px auto;
+	padding: 0px;
+	background-image: url(../../bnu_en/img/ibm_bg.jpg);
+	width: 966px;
+	height: 650px;
+}
+.box {
+}
+.top {
+	height: 21px;
+}

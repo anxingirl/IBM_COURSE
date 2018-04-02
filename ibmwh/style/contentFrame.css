@@ -1,0 +1,159 @@
+/* CSS Document */
+
+body{
+	font-size: 12px;
+	text-align:center;
+}
+.floatUp{
+	display:none;
+	z-index:2;
+	left:100px;
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	position:absolute;
+	top:50px;
+
+}
+.bigTable {
+	margin:auto;
+	width:600px;
+}
+
+td.noblank{
+	white-space:pre;
+	width:19px;
+	overflow:hidden;
+}
+.tab-head td{
+	font-size:14px;
+		height:30px;
+}
+.tab-row td{
+	font-size:12px;
+	height:25px;
+}
+
+td a:link{
+	text-decoration:none;
+	color:#0066cc;
+}
+
+td a:hover{
+	color:#cc3300;
+}
+.file-row{
+	text-align:right;
+	font-family:"ËÎÌו";}
+
+.form-button{
+	font-size:10px;
+	}
+.rightpart_main{
+ 	position: relative;
+ 	left: 50px;
+ 	top: 50px;
+ 	width:650px;
+ 	float:left;
+}
+.column-long {
+	width: 250px;
+	height: 30px;
+}
+.column-middle {
+	width: 90px;
+	height:25px;
+}.column-short {
+	width: 50px;
+	height:25px;
+}
+.small-button {
+	height:20px; 
+	border-width: 0px; 
+	background: #FFFFFF
+}
+.uploadbutton {
+	border-color:#FF3333
+}
+.file {
+	width:220px;
+	position: relative;
+	opacity:.0;
+	filter:alpha(opacity=0);
+	z-index: 3;
+	top:10px;
+}
+.txt {
+	float: left;
+	width: 150px;
+	position: relative;
+	top:-10px;
+}
+.sel {
+	float: left;
+	position: relative;
+	top:-10px;
+}
+#remind{
+	color:red
+}
+.addOn{
+	display:none;
+}
+
+ a.delete{
+	background:url(../image/minus_magenda_12.png) no-repeat left;
+	cursor:pointer;	
+}
+
+
+a:hover.delete{
+	background:url(../image/minus_blue_12.png) no-repeat left;
+	cursor:pointer;	
+}
+ a.adddown{
+	background:url(../image/plus_magenda_12.png) no-repeat left;
+	cursor:pointer;	
+}
+
+a:hover.adddown{
+	background:url(../image/plus_blue_12.png) no-repeat left;
+	cursor:pointer;	
+}
+
+ a.edit{
+	background:url(../image/tag_stroke_magenda_12.png) no-repeat left;
+	cursor:pointer;	
+}
+
+a:hover.edit{
+	background:url(../image/tag_stroke_blue_12.png) no-repeat left;
+	cursor:pointer;	
+}
+.showTd a{
+	background:url(../image/plus_12.png) no-repeat left;
+
+}
+.showTd a:hover{
+	background:url(../image/plus_alt_12.png) no-repeat left;
+	 cursor:pointer;
+}
+
+a.floatLink {
+	background:url(../image/arrow_right_12.png) no-repeat right;
+	cursor:pointer;
+}
+
+a.editInfo {
+	background:url(../image/pen_12.png) no-repeat right;
+	cursor:pointer;
+}
+
+#nameText
+{
+	width:140px;
+	z-index:80;
+}
+#nameSelect
+{
+	width:155px;
+}

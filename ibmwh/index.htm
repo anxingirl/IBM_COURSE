@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"   
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
+<html>  
+<head>  
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />  
+<title>IBM-高校合作资料中心</title>  
+<link href="css/float.css" rel="stylesheet" type="text/css" />
+</head>  
+
+<body>  
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+var timeout         = 500;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+function jsddm_open()
+{	jsddm_canceltimer();
+	jsddm_close();
+	ddmenuitem = $(this).find('ul').eq(0).css('visibility', 'visible');}
+
+function jsddm_close()
+{	if(ddmenuitem) ddmenuitem.css('visibility', 'hidden');}
+
+function jsddm_timer()
+{	closetimer = window.setTimeout(jsddm_close, timeout);}
+
+function jsddm_canceltimer()
+{	if(closetimer)
+	{	window.clearTimeout(closetimer);
+		closetimer = null;}}
+
+$(document).ready(function()
+{	$('#jsddm > li').bind('mouseover', jsddm_open);
+	$('#jsddm > li').bind('mouseout',  jsddm_timer);});
+
+document.onclick = jsddm_close;
+  </script>
+
+<div id="container">  
+	<div id="header">
+		<div id="logo"></div>
+		<div id="banner"></div>
+	</div> 
+	<div id="nav">
+		<div id="menu">
+
+<ul id="jsddm">
+	<li><a href="index.jsp">首页</a>
+		<ul>
+			<li><a href="#">按出版年份浏览</a></li>
+			<li><a href="#">按技术领域浏览</a></li>
+			<li><a href="#">按合作项目浏览</a></li>
+		</ul>
+	</li>
+	<li><a href="#">登录</a>
+	</li>
+	<li><a href="#">访问/下载统计</a>
+	</li>
+</ul>
+
+		</div>
+	</div>
+<div id="main">
+  <div id="sidebar">
+		<div id="introduce"><p>介绍<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></p></div>
+		<div id="login">
+		<form name="form3" id="form3" method="post" action="">
+		<table width="212" height="58" border="0">
+		  <tr>
+		    <td height="30" colspan="3" align="right" valign="bottom">如果想浏览全文资料，请登录！</td>
+	      </tr>
+		  <tr>
+		    <td height="20" colspan="3" align="right">用户首次登录请先注册！</td>
+	      </tr>
+		  <tr>
+			<td width="50" height="25" align="right">email：</td>
+			<td colspan="2" align="left"><input type="text" name="email" size=18/></td>
+		  </tr>
+		  <tr>
+			<td align="right">密码：</td>
+			<td colspan="2" align="left"><input type="password" name="passwd" size=20/></td>
+		  </tr>
+		  <tr>
+		    <td>&nbsp;</td>
+		    <td width="67" align="left">	        <input type="submit" name="Submit" value="登录" />	        </td>
+	      <td width="91" align="left" class="regPrompt">忘记密码？</td>
+		  </tr>
+		</table>
+		</form>
+		</div>    
+		<div id="access"><h3>访问量统计</h3></div>		    
+  </div>
+	
+	<div id="content">
+		<div id="search">
+		<form name="form1" id="form1" method="post" action="">
+		  <table width="609" border="0" align="right">
+            <tr>
+              <td width="235" height="28" align="center" valign="bottom">&nbsp;</td>
+            <td width="127" height="28" align="right" valign="bottom">资料中心快速检索</td>
+              <td width="187" height="28" align="left" valign="bottom"><input type="text" name="word" size="26" /></td>
+            <td width="42" align="left" valign="bottom"><input type="submit" name="query" value="查找" /></td>
+            </tr>
+          </table>
+		  </form>
+		</div> 
+		<div id="line"></div>
+		<div id="type1">
+		<h3>技术领域</h3>
+			<ul>
+	　　　　<li><a href="#">Business Analytics and Optimization</a></li>
+			<li><a href="#">Information Management</a></li>
+			<li><a href="#">Lotus</a></li>
+			<li><a href="#">Rational</a></li>
+			</ul>
+		</div>
+		<div id="type2">
+		<h3>合作项目</h3>
+			<ul>
+	　　　　<li><a href="#">师资培训</a></li>
+			<li><a href="#">精品课程</a></li>
+			<li><a href="#">远程课件</a></li>
+			<li><a href="#">出版教材</a></li>
+			</ul>
+		</div>
+		<div id="type3">
+		<h3>时间</h3>
+			<ul>
+	　　　　<li><a href="#">2012 年</a></li>
+			<li><a href="#">2011 年</a></li>
+			<li><a href="#">2010 年</a></li>
+			<li><a href="#">2009 年</a></li>
+			<li><a href="#">2008 年</a></li>
+			</ul>
+		</div>
+  </div>
+</div>
+	<div id="footer">Footer</div>  
+</div>  
+  
+</body>  
+</html>     
